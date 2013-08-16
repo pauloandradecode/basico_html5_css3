@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+}
+a, a:hover{
+	color:#222;
+	text-decoration:none;
+}
+body{
+	background: #fda716;
+	color:#222;
+	font-family: arial, helvetica;
+	font-size: 16px:;
+	line-height: 1.5;
+}
+footer{
+	background:#212020;
+	color:#ccc;
+	font-size:0.8em;
+	padding:20px 0 20px 0;
+	text-align:center;
+}
+footer p a{
+	color:#ccc;
+}
+footer p a:hover{
+	color:#ccc;
+	text-decoration: underline;
+}
+header{
+	clear: both;
+	text-align: center;
+}
+html{
+	height:101%;
+}
+nav{
+	display: inline-block;
+	float:right;
+	padding:10px 0 10px 0;
+	width:70%;
+}
+nav ul{
+	font-size:0;
+	text-align:center;
+}
+nav ul li{
+	display:inline-block;
+	font-size:16px;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	text-align:center;
+	width:25%;
+}
+nav ul li:hover{
+	background: #FCB35C;
+	border-radius: 10px;
+}
+#bodyinicio #inicio, #bodyacerca #acerca, #bodyproducto #producto, #bodycontacto #contacto{
+	background: #FCB35C;
+	border-radius: 10px;
+}
+#contenedor{
+	padding:10px;
+	text-align:center;
+}
+#contenido{
+	min-height:300px;
+	overflow:hidden;
+	padding-bottom: 10px;
+	width:100%;
+}
+#contenido h2{
+	color:#B43205;
+}
+#contenido_principal{
+	display:inline-block;
+	width:65%;
+}
+#menu_principal{
+	display: inline-block;
+	float:right;
+	width: 30%;
+}
+#menu_principal form p{
+	padding-bottom: 10px;
+}
+#menu_principal form p textarea{
+	border:2px solid #FDA716;
+	border-radius: 10px;
+	padding:5px;
+	width:80%;
+}
+#menu_titulo{
+	color:#B43205;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+#portada{
+	text-align: center;
+	width: 100%;
+}
+#portada img{
+	border:2px solid #FE9502;
+	padding:5px;
+	width:95%;
+}
+#submit{
+	background:#FE9502;
+	border:2px solid #fda716;
+	border-radius: 10px;
+	padding:5px 15px;
+}
+#submit:hover{
+	background:#fda716;
+	border:2px solid #FE9502;
+}
+#wrapper{
+	background: #fdfc99;
+	border-left:10px solid #FE9502;
+	border-right:10px solid #FE9502;
+	margin:0 auto 0 auto;
+	max-width:1024px;
+	min-height:300px;
+	padding:0 15px 0 15px;
+}
+.center{
+	text-align: center;
+}
+.contenido_titulo{
+	color:#B43205;
+	font-weight: bold;
+}
+.contenido_texto{
+	padding-left: 10px;
+	text-align: justify;
+}
+.input{
+	border:2px solid #FDA716;
+	border-radius: 10px;
+	padding:5px;
+	width:80%;
+}
+.subcontenedor{
+	background:#fda716;
+	border:2px solid #FE9502;
+	border-radius:10px;
+	display:inline-block;
+	margin:0 auto;
+	min-height: 200px;
+	padding:10px;
+	vertical-align: top;
+	width:27%;
+}
+.subcontenedor h2{
+	font-size:1.2em;
+}
+.subcontenedor p{
+	text-align: justify;
+}
